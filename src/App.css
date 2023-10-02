@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+  background-color: #0D54A4;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Source Sans 3';
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: absolute;
+  left: 86px;
+  top: 100px;
+}
+
+.background {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-image: url('./assets/background.svg');
+  width: 1127px;
+  height: 759px; 
+  z-index: 0;
+}

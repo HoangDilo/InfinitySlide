@@ -1,0 +1,33 @@
+.big-title {
+    padding: 24px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-start;
+    position: relative;
+}
+
+.small-child {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 3.2px;
+}
+
+.big-child {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+}
+
+.logo-mor {
+    width: 152px;
+    height: 152px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+
+* {
+    color: white;
+}

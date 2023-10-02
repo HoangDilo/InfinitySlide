@@ -1,0 +1,69 @@
+.navigate-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 68px;
+    background: white;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+button:hover {
+    background-image: linear-gradient(90deg, #D7AC38 0%, #ED3334 100%);
+}
+
+button:hover > svg > path {
+    stroke: white;
+}
+
+
+.the-different-one {
+    padding: 10px 10px 10px 20px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    height: 60px;
+    min-width: fit-content;
+    background-image: linear-gradient(90deg, #D7AC38 0%, #ED3334 100%);
+}
+
+.inside-button {
+    padding: 12px;
+    background-color: white;
+    border-radius: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.the-different-one:hover {
+    background: white;
+}
+
+.the-different-one:hover > div {
+    color: #ed7a33;
+}
+
+.the-different-one:hover > .inside-button > svg > path {
+    stroke: white;
+}
+
+.the-different-one:hover > .inside-button {
+    background-image: linear-gradient(90deg, #D7AC38 0%, #ED3334 100%);
+}

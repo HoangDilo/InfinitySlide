@@ -1,0 +1,54 @@
+.slide-container {
+    display: flex;
+    gap: 36px;
+    height: 335px;
+    overflow: visible;
+    width: 1354px;
+}
+
+.imgs {
+    width: 480px;
+    height: 335px;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+.cards {
+    min-width: 480px;
+    height: 335px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 31px;
+    z-index: 0;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-start;
+    position: absolute;
+    bottom: 34px;
+    max-width: 418px;
+}
+
+.small-content {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.dots {
+    width: 6px;
+    height: 6px;
+}
+
+.big-content {
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 30px;
+}
