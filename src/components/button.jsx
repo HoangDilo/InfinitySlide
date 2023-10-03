@@ -2,16 +2,16 @@ import leftButton from '../assets/left_arrow.svg'
 import rightButton from '../assets/right_arrow.svg'
 import './button.css'
 
-function Button({ callBackLeft, callBackRight }) {
+function Button({ callBackLeft, callBackRight, buttonSt }) {
     return (
         <div className="button-container">
             <div className="navigate-buttons">
-                <button onClick={callBackLeft}>
+                <button onClick={callBackLeft} disabled={buttonSt}>
                     <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M15.1194 18L9.11938 12L15.1194 6" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                 </button>
-                <button onClick={callBackRight}>
+                <button onClick={callBackRight} disabled={buttonSt}>
                     <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M9.11938 6L15.1194 12L9.11938 18" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
